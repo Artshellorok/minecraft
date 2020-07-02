@@ -1,0 +1,311 @@
+[13:27:15] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[13:27:16] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:27:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:27:16] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:27:16] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:27:16] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:27:16] [main/INFO]: Reloading ResourceManager: Default
+[13:27:17] [Worker-Main-2/INFO]: Loaded 7 recipes
+[13:27:17] [Worker-Main-2/INFO]: Loaded 927 advancements
+[13:27:18] [Server thread/INFO]: Starting minecraft server version 1.16
+[13:27:18] [Server thread/INFO]: Loading properties
+[13:27:18] [Server thread/INFO]: Default game type: SURVIVAL
+[13:27:18] [Server thread/INFO]: Generating keypair
+[13:27:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:27:19] [Server thread/INFO]: Using epoll channel type
+[13:27:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:27:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:27:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:27:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:27:19] [Server thread/INFO]: Preparing level "world"
+[13:27:19] [Server thread/ERROR]: Error loading saved data: raids
+java.io.IOException: Root tag must be a named compound tag
+	at lo.a(SourceFile:67) ~[minecraft_server.1.16.jar:?]
+	at lo.a(SourceFile:59) ~[minecraft_server.1.16.jar:?]
+	at daa.a(SourceFile:93) ~[minecraft_server.1.16.jar:?]
+	at daa.c(SourceFile:71) ~[minecraft_server.1.16.jar:?]
+	at daa.b(SourceFile:58) ~[minecraft_server.1.16.jar:?]
+	at daa.a(SourceFile:42) ~[minecraft_server.1.16.jar:?]
+	at zd.<init>(SourceFile:194) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:411) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.l_(SourceFile:334) ~[minecraft_server.1.16.jar:?]
+	at yd.d(SourceFile:175) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:647) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:256) ~[minecraft_server.1.16.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[13:27:19] [Server thread/ERROR]: Error loading saved data: raids_end
+java.io.IOException: Root tag must be a named compound tag
+	at lo.a(SourceFile:67) ~[minecraft_server.1.16.jar:?]
+	at lo.a(SourceFile:59) ~[minecraft_server.1.16.jar:?]
+	at daa.a(SourceFile:93) ~[minecraft_server.1.16.jar:?]
+	at daa.c(SourceFile:71) ~[minecraft_server.1.16.jar:?]
+	at daa.b(SourceFile:58) ~[minecraft_server.1.16.jar:?]
+	at daa.a(SourceFile:42) ~[minecraft_server.1.16.jar:?]
+	at zd.<init>(SourceFile:194) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:411) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.l_(SourceFile:334) ~[minecraft_server.1.16.jar:?]
+	at yd.d(SourceFile:175) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:647) ~[minecraft_server.1.16.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:256) ~[minecraft_server.1.16.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[13:27:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:27:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:27:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:27:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:27:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:27:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:27:21] [Server thread/INFO]: Preparing spawn area: 0%
+[13:27:22] [Server thread/INFO]: Preparing spawn area: 43%
+[13:27:23] [Server thread/INFO]: Time elapsed: 3652 ms
+[13:27:23] [Server thread/INFO]: Done (3.834s)! For help, type "help"
+[13:27:23] [Server thread/INFO]: Starting remote control listener
+[13:27:23] [Server thread/INFO]: Thread RCON Listener started
+[13:27:23] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
+[13:29:11] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:29:12] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[13:35:45] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[13:36:49] [Server thread/INFO]: hirabrine[/172.17.0.1:44760] logged in with entity id 148 at (-154.7865904990449, 32.875, -36.660775565498874)
+[13:36:49] [Server thread/INFO]: hirabrine joined the game
+[13:36:53] [Server thread/INFO]: hirabrine lost connection: Disconnected
+[13:36:53] [Server thread/INFO]: hirabrine left the game
+[13:37:27] [Server thread/INFO]: zambiza[/172.17.0.1:44770] logged in with entity id 215 at (847.542929403261, 63.0, 116.24459337178524)
+[13:37:27] [Server thread/INFO]: zambiza joined the game
+[13:37:31] [Server thread/INFO]: plzzzzzzzz[/172.17.0.1:44774] logged in with entity id 406 at (1.1363931893728232, 65.0, 3.6720015458302093)
+[13:37:31] [Server thread/INFO]: plzzzzzzzz joined the game
+[13:37:33] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[13:37:33] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[13:40:53] [Server thread/INFO]: smemes[/172.17.0.1:44792] logged in with entity id 1098 at (812.4270980084865, 63.0, 27.816495596135805)
+[13:40:53] [Server thread/INFO]: smemes joined the game
+[13:48:52] [Server thread/INFO]: zambiza lost connection: Disconnected
+[13:48:52] [Server thread/INFO]: zambiza left the game
+[13:49:07] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/3336, l='ServerLevel[world]', x=788.03, y=63.12, z=-53.41]
+[13:50:02] [Server thread/INFO]: Баска[/172.17.0.1:44840] logged in with entity id 3582 at (233.5, 63.0, -4.5)
+[13:50:02] [Server thread/INFO]: Баска joined the game
+[13:50:17] [Server thread/INFO]: Баска lost connection: Disconnected
+[13:50:17] [Server thread/INFO]: Баска left the game
+[13:50:52] [Server thread/INFO]: Вася[/172.17.0.1:44852] logged in with entity id 3922 at (1234.7291478894554, 64.0, 320.69999998807907)
+[13:50:52] [Server thread/INFO]: Вася joined the game
+[13:52:24] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -9.865981765670654,0.0,-3.289733362496051
+[13:52:24] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -10.245442611559952,0.0,-3.4162615463149564
+[13:52:24] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -10.624903457640812,0.0,-3.5427897296428483
+[13:52:24] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -11.004364303894022,0.0,-3.669317912528811
+[13:52:25] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -11.3838251503023,0.0,-3.7958460950170405
+[13:52:25] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -11.763285996850186,0.0,-3.9223742771473127
+[13:52:25] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -12.142746843523696,0.0,-4.048902458955425
+[13:52:25] [Server thread/WARN]: Boat (vehicle of Вася) moved too quickly! -12.522207690310324,0.0,-4.175430640473593
+[13:52:55] [Server thread/INFO]: Вася has made the advancement [Diamonds!]
+[13:52:55] [Server thread/INFO]: Вася has made the advancement [Cover Me With Diamonds]
+[13:53:50] [Server thread/INFO]: Вася lost connection: Disconnected
+[13:53:50] [Server thread/INFO]: Вася left the game
+[13:54:24] [Server thread/INFO]: zambiza[/172.17.0.1:44874] logged in with entity id 5817 at (828.3000000119209, 65.0, 132.86250001192093)
+[13:54:24] [Server thread/INFO]: zambiza joined the game
+[13:54:43] [Server thread/INFO]: zambiza has completed the challenge [Cover Me in Debris]
+[14:00:06] [Server thread/INFO]: zambiza lost connection: Disconnected
+[14:00:06] [Server thread/INFO]: zambiza left the game
+[14:00:51] [Server thread/INFO]: malena[/172.17.0.1:44912] logged in with entity id 7151 at (782.8167310430484, 66.0, 53.28136534538734)
+[14:00:51] [Server thread/INFO]: malena joined the game
+[14:01:11] [Server thread/INFO]: zambiza[/172.17.0.1:44920] logged in with entity id 7503 at (829.0415400958524, 64.0, 140.35658101698928)
+[14:01:11] [Server thread/INFO]: zambiza joined the game
+[14:02:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[14:03:51] [Server thread/INFO]: malena was slain by Spider
+[14:04:30] [Server thread/INFO]: malena was slain by Zombie
+[14:04:51] [Server thread/INFO]: plzzzzzzzz has made the advancement [Into Fire]
+[14:04:55] [Server thread/WARN]: malena moved too quickly! -45.68904122550873,6.000000200000002,-10.418418032365565
+[14:05:40] [Server thread/INFO]: <smemes> 106.67.7 портал
+[14:06:02] [Server thread/INFO]: malena was slain by Spider
+[14:07:18] [Server thread/INFO]: malena was slain by Spider
+[14:07:27] [Server thread/WARN]: smemes moved too quickly! 9.144454511148979,-1.252203340253729,4.587128128876429
+[14:07:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
+[14:07:55] [Server thread/INFO]: malena was slain by Spider
+[14:10:02] [Server thread/INFO]: malena was slain by Zombie
+[14:10:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2304ms or 46 ticks behind
+[14:11:56] [Server thread/INFO]: smemes has made the advancement [Eye Spy]
+[14:12:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2207ms or 44 ticks behind
+[14:16:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[14:16:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3658ms or 73 ticks behind
+[14:16:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3674ms or 73 ticks behind
+[14:17:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[14:17:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2719ms or 54 ticks behind
+[14:17:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[14:17:53] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! -1.6170520635813546,2.2545299945731188,-9.752752880642902
+[14:17:53] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! -1.6416070030251149,2.1115786776559844,-10.046428777245865
+[14:17:53] [Server thread/WARN]: zambiza moved wrongly!
+[14:17:53] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.4065643807142578,1.5997924040409401,-10.010082742939403
+[14:17:53] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.43166900058588453,1.449170946873295,-10.250225117233185
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.8873164720648674
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.8873164720648674
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.8966669939704843
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.9211800834252699
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.9625112870971861
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 1.0188170145847835
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.0884708614394185
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.150588163854536
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.1838258938914805
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.201610740545448
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.211127057398471
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:54] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 6.216219048811581
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.428236975728737,1.5883777123261922,-9.896646295389928
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.49032036148014413,2.0766236767468627,-9.901028396369838
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.5533488875236117,2.4687031086074143,-9.923410259985985
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.6171263198064025,2.7684242007996858,-9.96188300997892
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.6721249158813407,2.979444341848179,-10.015702821023751
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.7190851641831841,3.105276087760174,-10.083187850131935
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.7587031342178534,3.149292897390751,-10.162840133932605
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.7916370565328634,3.1147346406873595,-10.253326872835942
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.8185597975303835,3.0047128888080863,-10.353469507906311
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.8401105808698048,2.822215994751346,-10.46222186017917
+[14:17:55] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved too quickly! 0.8568706522316916,2.5701139727926545,-10.5786523584743
+[14:17:56] [Server thread/INFO]: smemes has made the advancement [The End?]
+[14:17:57] [Server thread/WARN]: smemes moved too quickly! -1411.3993687763623,30.26590000152588,-1234.4718860770831
+[14:18:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13618ms or 272 ticks behind
+[14:18:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[14:18:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4781ms or 95 ticks behind
+[14:18:52] [Server thread/INFO]: plzzzzzzzz has made the advancement [The Parrots and the Bats]
+[14:19:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
+[14:19:17] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.3397351590284643
+[14:19:17] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 0.7255426919236925
+[14:19:17] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 1.1282270094840214
+[14:19:17] [Server thread/WARN]: Skeleton Horse (vehicle of plzzzzzzzz) moved wrongly! 1.5398898108032881
+[14:19:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3311ms or 66 ticks behind
+[14:19:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2580ms or 51 ticks behind
+[14:20:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2772ms or 55 ticks behind
+[14:20:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[14:20:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4933ms or 98 ticks behind
+[14:21:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3760ms or 75 ticks behind
+[14:21:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[14:22:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[14:22:16] [Server thread/INFO]: malena lost connection: Disconnected
+[14:22:16] [Server thread/INFO]: malena left the game
+[14:22:40] [Server thread/INFO]: malena[/172.17.0.1:45014] logged in with entity id 18319 at (843.6361321671934, 63.0, 90.0338875323879)
+[14:22:40] [Server thread/INFO]: malena joined the game
+[14:22:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[14:23:07] [Server thread/WARN]: malena moved too quickly! -1.5081475751049993,-1.380023674395538,-9.929919430634655
+[14:23:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5785ms or 115 ticks behind
+[14:23:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3742ms or 74 ticks behind
+[14:24:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9011ms or 180 ticks behind
+[14:24:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2191ms or 43 ticks behind
+[14:24:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[14:25:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3080ms or 61 ticks behind
+[14:25:14] [Server thread/INFO]: zambiza has made the advancement [Best Friends Forever]
+[14:25:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[14:26:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7875ms or 157 ticks behind
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -1.5320878557415654,-1.0,-10.12784100231488
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -1.735162329433706,-1.0,-10.49642719487315
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -1.9305344902927573,-1.0,-10.869426297770815
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -2.1217852971221873,-1.0,-11.244786661007083
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -2.310830849581407,-1.0,-11.62141048757212
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -2.4986964143952264,-1.0,-11.99871036817376
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -2.686385309713387,-1.0,-12.376146939923501
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -2.880349123613996,-1.0,-12.750347312505937
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -3.0826014404412945,-1.0,-13.120045470228433
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -3.289288769929499,-1.0,-13.487334582543781
+[14:26:15] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -3.498349186268115,-1.0,-13.853334662692987
+[14:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4458ms or 89 ticks behind
+[14:26:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2584ms or 51 ticks behind
+[14:29:11] [Server thread/INFO]: smemes has made the advancement [Remote Getaway]
+[14:29:20] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -3.128540484066434,-5.772546541336993,-7.758750274363479
+[14:29:20] [Server thread/WARN]: Skeleton Horse (vehicle of zambiza) moved too quickly! -3.095349462388185,-5.772546541336993,-8.171567188810513
+[14:29:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2362ms or 47 ticks behind
+[14:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4019ms or 80 ticks behind
+[14:34:25] [Server thread/WARN]: smemes moved too quickly! 2.86961795320849,0.5047991229940862,-9.823289871639247
+[14:34:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[14:35:17] [Server thread/INFO]: malena was slain by Zombie
+[14:35:50] [Server thread/INFO]: malena was slain by Zombie
+[14:36:49] [Server thread/INFO]: malena was slain by Zombie
+[14:37:05] [Server thread/INFO]: malena was slain by Wolf
+[14:39:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3299ms or 65 ticks behind
+[14:39:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5088ms or 101 ticks behind
+[14:40:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2296ms or 45 ticks behind
+[14:40:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[14:41:01] [Server thread/INFO]: malena was slain by Zombie
+[14:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[14:41:34] [Server thread/INFO]: malena was slain by Zombie
+[14:41:58] [Server thread/INFO]: smemes has made the advancement [The City at the End of the Game]
+[14:42:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
+[14:42:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2853ms or 57 ticks behind
+[14:43:23] [Server thread/INFO]: plzzzzzzzz lost connection: Disconnected
+[14:43:23] [Server thread/INFO]: plzzzzzzzz left the game
+[14:44:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3698ms or 73 ticks behind
+[14:47:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[14:47:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4588ms or 91 ticks behind
+[14:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[14:48:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[14:49:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[14:50:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=971, y=66, z=170} fu{x=969, y=65, z=172}
+[14:50:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=971, y=66, z=170} fu{x=969, y=65, z=172}
+[14:50:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=971, y=66, z=170} fu{x=969, y=65, z=172}
+[14:50:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9587ms or 191 ticks behind
+[14:51:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[14:51:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[14:52:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2918ms or 58 ticks behind
+[14:52:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3343ms or 66 ticks behind
+[14:53:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[14:53:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[14:54:34] [Server thread/INFO]: smemes lost connection: Disconnected
+[14:54:34] [Server thread/INFO]: smemes left the game
+[14:55:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2279ms or 45 ticks behind
+[14:56:50] [Server thread/INFO]: malena was slain by Zombie
+[14:57:38] [Server thread/INFO]: malena lost connection: Disconnected
+[14:57:38] [Server thread/INFO]: malena left the game
+[14:58:11] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[14:58:32] [Server thread/INFO]: [Rcon: Gamerule keepInventory is now set to: true]
+[14:59:35] [RCON Client /127.0.0.1 #4/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[14:59:55] [Server thread/INFO]: zambiza lost connection: Disconnected
+[14:59:55] [Server thread/INFO]: zambiza left the game
+[15:00:59] [Server thread/INFO]: shunoren[/172.17.0.1:45188] logged in with entity id 35907 at (239.5, 63.0, 2.5)
+[15:00:59] [Server thread/INFO]: shunoren joined the game
+[15:06:13] [Server thread/INFO]: shunoren has made the advancement [Fishy Business]
+[15:07:49] [Server thread/INFO]: shunoren drowned
+[15:07:51] [Server thread/WARN]: shunoren moved too quickly! -15.058708545623858,5.000000200000002,1.8058275074491519
+[15:09:49] [Server thread/INFO]: smemes[/172.17.0.1:45236] logged in with entity id 37745 at (1864.285446707113, -62.485908317502854, -61.8576572695006)
+[15:09:49] [Server thread/INFO]: smemes joined the game
+[15:09:53] [Server thread/INFO]: smemes fell out of the world
+[15:15:05] [Server thread/WARN]: smemes moved too quickly! -1410.6857109456357,30.1875,-1234.617184027096
+[15:15:14] [Server thread/INFO]: shunoren has made the advancement [A Seedy Place]
+[15:17:41] [Server thread/INFO]: shunoren has made the advancement [Monster Hunter]
+[15:30:28] [Server thread/WARN]: smemes moved too quickly! -0.7103690160772658,-16.995443045553536,-0.30714736565710155
+[15:30:30] [Server thread/INFO]: smemes fell out of the world
+[15:38:18] [Server thread/INFO]: shunoren lost connection: Disconnected
+[15:38:18] [Server thread/INFO]: shunoren left the game
+[15:39:27] [Server thread/INFO]: zambiza[/172.17.0.1:45370] logged in with entity id 45121 at (829.5433228358897, 64.0, 137.3524794149702)
+[15:39:27] [Server thread/INFO]: zambiza joined the game
+[15:52:16] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/48389, l='ServerLevel[world]', x=752.49, y=64.00, z=54.98]
+[15:53:48] [Server thread/INFO]: smemes tried to swim in lava to escape Magma Cube
+[15:54:36] [Server thread/INFO]: smemes has made the advancement [A Seedy Place]
+[15:56:09] [Server thread/INFO]: plzzzzzzzz[/172.17.0.1:45440] logged in with entity id 49368 at (769.0855587659081, 65.0, 83.33035801043583)
+[15:56:09] [Server thread/INFO]: plzzzzzzzz joined the game
+[16:04:10] [Server thread/INFO]: smemes lost connection: Disconnected
+[16:04:10] [Server thread/INFO]: smemes left the game
+[16:04:16] [Server thread/INFO]: smemes[/172.17.0.1:45482] logged in with entity id 51937 at (198.30536578324075, 79.0, -121.69999998807907)
+[16:04:16] [Server thread/INFO]: smemes joined the game
+[16:05:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[16:05:57] [Server thread/INFO]: zambiza lost connection: Disconnected
+[16:05:57] [Server thread/INFO]: zambiza left the game
+[16:06:52] [Server thread/INFO]: shunoren[/172.17.0.1:45500] logged in with entity id 52940 at (833.4602772712936, 64.0, 141.84333877382693)
+[16:06:52] [Server thread/INFO]: shunoren joined the game
+[16:10:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2084ms or 41 ticks behind
+[16:11:03] [Server thread/INFO]: smemes lost connection: Disconnected
+[16:11:03] [Server thread/INFO]: smemes left the game
+[16:11:17] [Server thread/INFO]: shunoren has made the advancement [The Parrots and the Bats]
+[16:12:02] [Server thread/INFO]: smemes[/172.17.0.1:45528] logged in with entity id 54529 at (-64.30474498411795, 36.875, 24.795810822737238)
+[16:12:02] [Server thread/INFO]: smemes joined the game
+[16:13:26] [Server thread/WARN]: Horse (vehicle of plzzzzzzzz) moved wrongly! 0.46366680350683964
+[16:15:44] [Server thread/INFO]: shunoren lost connection: Disconnected
+[16:15:44] [Server thread/INFO]: shunoren left the game
+[16:16:16] [Server thread/INFO]: zambiza[/172.17.0.1:45554] logged in with entity id 55828 at (829.238514420194, 64.0, 139.79289528426952)
+[16:16:16] [Server thread/INFO]: zambiza joined the game
+[16:18:05] [Server thread/INFO]: smemes has made the advancement [Oh Shiny]
+[16:21:00] [Server thread/INFO]: plzzzzzzzz lost connection: Disconnected
+[16:21:00] [Server thread/INFO]: plzzzzzzzz left the game
+[16:22:01] [Server thread/INFO]: smemes has made the advancement [Spooky Scary Skeleton]
+[16:37:28] [Server thread/INFO]: smemes tried to swim in lava
